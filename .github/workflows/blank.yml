@@ -13,5 +13,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
-        ls -al
+          ls -al
         
