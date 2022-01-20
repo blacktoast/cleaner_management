@@ -13,6 +13,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
-          pwd
-          ls -al
-        
+          cd /home/seong/vite-project
+          npm run build
