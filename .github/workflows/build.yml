@@ -12,6 +12,4 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        script: |
-          cd /home/seong/vite-project
-          npm run build
+        script: ls
